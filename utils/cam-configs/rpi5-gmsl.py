@@ -1,7 +1,7 @@
 import v4l2
 import v4l2.uapi
 
-USE_RAW_10=False
+USE_RAW_10=True
 MEDIA_DEVICE_NAME = ('rp1-cfe', 'model')
 DESER_REGEX = '(max96724|max9296a) [0-9]+-[a-f0-9]+'
 
